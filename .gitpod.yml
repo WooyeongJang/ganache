@@ -6,3 +6,6 @@ tasks:
   - init: npm install
     command: npm start
 
+ports:
+  - port: 8545
+    onOpen: open-browser
