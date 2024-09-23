@@ -1,0 +1,12 @@
+{
+  "name": "ganache-gitpod-project",
+  "version": "1.0.0",
+  "description": "Ethereum development project using Ganache and Gitpod",
+  "scripts": {
+    "start": "ganache-cli --host 0.0.0.0"
+  },
+  "dependencies": {
+    "ganache-cli": "^6.12.2"
+  }
+}
+
