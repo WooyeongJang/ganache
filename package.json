@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Ethereum development project using Ganache and Gitpod",
   "scripts": {
-    "start": "ganache-cli --host 0.0.0.0  --port 8545"
+    "start": "ganache-cli --host 0.0.0.0  --port 8545 --db ./db"
   },
   "dependencies": {
     "ganache-cli": "^6.12.2"
