@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:lts
 
 # Install Ganache CLI globally
 RUN npm install -g ganache@latest
