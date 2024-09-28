@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Ethereum development project using Ganache and Gitpod",
   "scripts": {
-    "start": "ganache-cli --gasLimit 8000000 --host 127.0.0.1 --port 8545 --db ./db --mnemonic \"shrug cricket skin negative guitar ethics lens trim nut fury catch valley\" >> ganache-log.txt 2>&1"
+    "start": "ganache-cli --gasLimit 8000000 --host 0.0.0.0 --port 8545 --db ./db --mnemonic \"shrug cricket skin negative guitar ethics lens trim nut fury catch valley\" >> ganache-log.txt 2>&1"
   },
   "dependencies": {
     "ganache-cli": "^6.12.2"
